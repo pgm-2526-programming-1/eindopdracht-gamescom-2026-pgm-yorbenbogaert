@@ -1,15 +1,15 @@
 const navigationLink = [
     { name: "Events",
       link: "/app/index.html",
-      type: "internal"
+      type: "internal",
     },
     { name: "Official Website",
       link: "https://www.gamescom.global/en",
-      type: "external"
+      type: "external",
     },
     { name: "Graduaat Programmeren",
       link: "https://www.arteveldehogeschool.be/opleidingen/graduaat/programmeren",
-      type: "external"
+      type: "external",
     }
 ];
 
@@ -24,10 +24,11 @@ const eventcard = [
             twitter: "https://x.com/EpicGames",
             youtube: "https://www.youtube.com/@EpicGamesStore",
             website: "https://www.epicgames.com/site/en-US/home",
-                 }
+            },      
+        image: "./Images/next-gen.png",   
             },
-        from: "1787734800000",
-        to: "1787742000000"
+      from: "1787734800000",
+      to: "1787742000000",
     },
     {
         id: "439cc5151e654bfcb7501b74e10739a1",
@@ -40,11 +41,12 @@ const eventcard = [
                 twitter: "https://x.com/FF_XIV_EN",
                 youtube: "https://www.youtube.com/@ffxiv",
                 website: "https://eu.finalfantasyxiv.com/"
-                    }
+            },
+        image: "./Images/ff-xiv.png",
             },
         from: "1787738400000",
-        to: "1787743800000"
- },
+        to: "1787743800000",
+    },
     {
         id: "8a4d0bbbf1d74f4db0b2ccd984a975d4",
         stage: "Visionary Stage",
@@ -55,10 +57,11 @@ const eventcard = [
                 instagram: "https://www.instagram.com/hidetaka.miyazaki_/",
                 twitter: "https://x.com/MiyazakiTweets",
                 website: "https://en.wikipedia.org/wiki/Hidetaka_Miyazaki",
-                     }
+            },
+            image: "./Images/future-gaming.jpg",
             },
         from: "1787749200000",
-        to: "1787756400000"
+        to: "1787756400000",
     },
     {
         id: "987293a9f39c405da74727a91f1cadd5",
@@ -71,10 +74,11 @@ const eventcard = [
                 twitter: "https://x.com/StarfieldGame",
                 youtube: "https://www.youtube.com/@bethesda",
                 website: "https://bethesda.net/en/game/starfield",
-                     }
+            },
+        image: "./Images/starfield.jpg",             
             },
         from: "1787745600000",
-        to: "1787752800000"
+        to: "1787752800000",
 
     },
     {
@@ -87,11 +91,11 @@ const eventcard = [
                 instagram: "https://www.instagram.com/epicgames/",
                 youtube: "https://www.youtube.com/@EpicGamesStore",
                 website: "https://www.epicgames.com/site/en-US/home",
-                     }
+            },
+        image: "./Images/ai-machine.jpg",
             },
         from: "1787817600000",
-        to: "1787824800000"
-
+        to: "1787824800000",
 
     },
     {
@@ -105,10 +109,11 @@ const eventcard = [
                 twitter: "https://x.com/CyberpunkGame",
                 youtube: "https://www.cyberpunk.net/us/en/",
                 website: "https://www.youtube.com/@CyberpunkGame",
-                     }
+            },
+            image: "./Images/cyberpunk.jpg",
             },
         from: "1787833800000",
-        to: "1787839200000"
+        to: "1787839200000",
     },
     {
         id: "6b23d084653640699c356273366fe0bb",
@@ -119,11 +124,78 @@ const eventcard = [
             socials: {
                 instagram: "https://www.instagram.com/amy_hennig/",
                 twitter: "https://x.com/amy_hennig",
-                website: "https://en.wikipedia.org/wiki/Amy_Hennig"
-
-
-                }
+                website: "https://en.wikipedia.org/wiki/Amy_Hennig",
+            },
+            image: "./Images/storytelling.jpg",      
+            },
+        from: "1787846400000",
+        to: "1787850000000",
+    },
+    {
+        id: "d18ce68c47f142bebf6422ec8820b06d",
+        stage: "Virtual Stage",
+        event: {
+            name: "The Impact of VR",
+            description: "Visionary entrepreneur Palmer Luckey, the founder of Oculus, takes the stage to explore the transformative impact of Virtual Reality (VR) on the gaming industry. In this engaging session, Luckey will discuss how VR technology has evolved from niche experimentation to mainstream gaming, unlocking new levels of immersion and interactivity. Attendees will get an inside look at the innovations that have shaped VR gaming so far and the next generation of hardware and software that will push the boundaries of player experiences. From haptic feedback to full-body tracking, Luckey will also explore how VR is setting the stage for entirely new genres of gameplay, revolutionizing how we interact with virtual worlds. Don't miss this opportunity to see the future of gaming through the eyes of a VR pioneer.",
+            socials: {
+                twitter: "https://x.com/PalmerLuckey",
+                youtube: "https://www.youtube.com/@PalmerLuckey",
+                website: "https://www.palmerluckey.com/",
+            },
+            image: "./Images/future-vr.jpeg",
+        },
+        from: "1787914800000",
+        to: "1787922000000",
+    },
+    {
+        id:"0f9ed681339945e586b898d4d3f8c23b", 
+        stage: "Main Showcase Stage",
+        event: {
+            name: "Assassin's Creed Mirage",
+            description: "Ubisoft invites you to step into the richly detailed world of Assassin's Creed Mirage, the newest chapter in the iconic franchise. In this presentation, the development team will showcase how Mirage takes the series back to its roots with a focus on stealth, parkour, and immersive storytelling. Set in the bustling streets of 9th-century Baghdad, players will get a sneak peek into the historically rich environment, new characters, and intricate missions that harken back to the early Assassin's Creed games. The session will cover the redefined combat and exploration systems, along with fresh gameplay mechanics that will keep players engaged in the city’s vibrant open world. Join Ubisoft as they discuss their vision for the future of Assassin's Creed while honoring its past.",
+            socials: {
+                instagram: "https://www.instagram.com/assassins_uk/",
+                twitter: "https://x.com/assassinscreed",
+                youtube: "https://www.youtube.com/watch?v=x55lAlFtXmw",
+                website: "https://www.ubisoft.com/en-gb/game/assassins-creed/mirage",
+            },
+            image: "./Images/mirage.jpg",
+        },
+        from: "1787922000000",
+        to: "1787925600000",
+    },
+    {
+        id: "4d5736f52b2748a2b239d3ee416fee8c",
+        stage: "Visionary Stage",
+        event: {
+            name: "Inclusion in Gaming",
+            description: "Join Anita Sarkeesian, renowned feminist media critic and founder of Feminist Frequency, as she leads an important discussion on diversity and inclusion in the gaming industry. This thought-provoking session will explore the critical role of representation and inclusivity in game design, development, and storytelling. Sarkeesian will address the challenges and opportunities faced by the industry in creating more inclusive content and environments for both players and creators. The talk will include case studies of successful diverse representations, strategies for fostering inclusive game design, and the impact of these practices on player communities. Attendees will gain valuable insights into how the industry can evolve to better reflect and engage a global audience.",
+            socials: {
+                instagram: "https://www.instagram.com/anitasarkeesian/",
+                twitter: "https://x.com/anitasarkeesian",
+                website: "https://anitasarkeesian.com/",
+            },
+        image: "./Images/inclusion.jpg",
+        },
+        from: "1787907600000",
+        to: "1787913000000",
+    },
+    {
+        id: "301ad492b6914588af884800a4896e6d",
+        stage: "Main Showcase Stage",
+        event: {
+            name: "Horizon Forbidden West",
+            description: "Dive deeper into the post-apocalyptic world of Horizon Forbidden West with Guerrilla Games as they reveal the latest developments and future plans for their acclaimed action RPG. In this exclusive presentation, fans will be treated to a preview of upcoming expansions, new environments, and expanded lore that will enrich the game's already expansive universe. Discover how Guerrilla Games is enhancing the gameplay experience with innovative features, upgraded graphics, and more intricate storylines. The session will also cover how player feedback has influenced the latest updates and what lies ahead for the protagonist, Aloy. Whether you're a seasoned explorer or new to the world of Horizon, this event promises to provide exciting insights and updates.",
+            socials: {
+                instagram: "https://www.instagram.com/horizonforbiddenwest_official/",
+                twitter: "https://x.com/HorizonFWgame",
+                youtube: "https://www.guerrilla-games.com/games",
+                website: "https://www.youtube.com/watch?v=Lq594XmpPBg",
+            },
+        image: "./Images/horizon.jpg",
+        },
+        from: "1787992200000",
+        to: "1787997600000",
     }
-}
 ]
 
