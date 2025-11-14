@@ -6,19 +6,26 @@
     <title>Gamescon</title>
     <link rel="stylesheet" href="/app/css/reset.css">
     <link rel="stylesheet" href="/app/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<nav id="main-navigation" class="main-nav"></nav>
-<div id="countdown-timer" class="countdown-container"></div>
-
-
-
-
 <body>
-    <div id="event-list" class="event-cards-container"></div>
+<div class="header-wrapper">
+    <a href="./index.html" class="logo-link">
+        <img src="./Images/logo.svg" alt="Gamescon logo" class="nav-logo">
+    </a>
+    <nav id="main-navigation" class="main-nav"></nav>
+</div>
+<div id="countdown-timer" class="countdown-container"></div>
+<div id="event-list" class="event-cards-container"></div>
 
+<div id="event-panel" class="event-panel hidden">
+    <button id="panel-close" class="panel-close">✖</button> 
+</div>
 
     <script src="/app/js/data.js"></script>
-    <script src="/app/js/index.js"></script>
+    <script src="/app/js/main.js"></script>
 </body>
 
 </html>

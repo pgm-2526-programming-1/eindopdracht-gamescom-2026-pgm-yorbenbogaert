@@ -107,8 +107,8 @@ const eventcard = [
             socials: {
                 instagram: "https://www.instagram.com/cyberpunkgame/",
                 twitter: "https://x.com/CyberpunkGame",
-                youtube: "https://www.cyberpunk.net/us/en/",
-                website: "https://www.youtube.com/@CyberpunkGame",
+                youtube: "https://www.youtube.com/@CyberpunkGame",
+                website: "https://www.cyberpunk.net/us/en/",
             },
             image: "./Images/cyberpunk.jpg",
             },
@@ -189,8 +189,8 @@ const eventcard = [
             socials: {
                 instagram: "https://www.instagram.com/horizonforbiddenwest_official/",
                 twitter: "https://x.com/HorizonFWgame",
-                youtube: "https://www.guerrilla-games.com/games",
-                website: "https://www.youtube.com/watch?v=Lq594XmpPBg",
+                youtube: "https://www.youtube.com/watch?v=Lq594XmpPBg",
+                website: "https://www.guerrilla-games.com/games",
             },
         image: "./Images/horizon.jpg",
         },
