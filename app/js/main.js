@@ -96,7 +96,7 @@
     }
 
     // Function to create HTML for a single event card
-    function genereateHTMLForEvent(eventData) {
+    function generateHTMLForEvent(eventData) {
         // Format the event's start and end time
         const dateTimeString = formatEventDateTime(eventData.from, eventData.to)
         
@@ -112,17 +112,17 @@
     }
     
     // Function to create HTML for all event cards
-    function genereateHTMLForEvents(eventcards) {
+    function generateHTMLForEvents(eventcards) {
         let html= "";
         // Loop through each event in the array
         for (const eventcard of eventcards) {
-            html += genereateHTMLForEvent(eventcard);
+            html += generateHTMLForEvent(eventcard);
         }
         return html;
     }
 
     // Put all the event cards HTML into the webpage (eventcard comes from data.js)
-    $list.innerHTML = genereateHTMLForEvents(eventcard);
+    $list.innerHTML = generateHTMLForEvents(eventcard);
 
     // Get the panel element that will slide in from the right
     const $panel = document.getElementById('event-panel');
